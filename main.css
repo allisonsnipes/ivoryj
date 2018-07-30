@@ -16,24 +16,22 @@
 /* want the welcome screen to fade in zoom
 .welcome { 
 	transition: ease-in;
-}
+} */
+
 button:hover {
 	cursor: pointer;
-}*/
+}
 
-/*having trouble with the color*/
-ol.color {
-	color: #000;
+.li {
+	color: #fff;
 }
 
 legend {
 	background-color: #000;
 	color: #fff;
-	padding: 3px 6px;
+	padding: 10px 10px;
 }
 
-
-
-input{
-	margin: .4rem;
+fieldset {
+	margin-bottom: 20px;
 }
