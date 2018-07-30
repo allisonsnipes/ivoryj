@@ -10,8 +10,12 @@
 </head>
 
 <body>
-	<div class="container">
+	<header>
 		<h1 class="welcome"> Welcome Freedom</h1>
+	</header>
+
+	<div class="container">
+		<h2> Ivory J.</h2>
 		<p> A brief overview on press freedom and activists rights worldwide</p>
 
 
@@ -248,36 +252,56 @@
 					</li>
 				</legend>
 					<div>
-						<input type="" name="" id="">
-						<label for=""></label>
+						<input type="radio" name="developed-count" id="less-dev">
+						<label for="less-dev">True, this is largely a less developed country problem.</label>
 					</div>
 
-				
+					<div>
+						<input type="radio" name="developed-count" id="concerns">
+						<label for="concerns">False, it concerns countries from both developed and least developed democracies and governments.</label>
+					</div>
+
+					<div>
+						<input type="radio" name="developed-count" id="freedom-enforce">
+						<label for="freedom-enforce">True, young governments do not have the resources to enforce press freedom.</label>
+					</div>
+
+					<div>
+						<input type="radio" name="developed-count" id="fakenews">
+						<label for="fakenews">False, because of fake news and cyberbullying of journalist governments have imposed sanctions on media to stop unintended consequences.</label>
+					</div>
 			</fieldset>			
 
 			<fieldset>
 				<legend>
 					<li>
-						
+						This year alone, what percentage of women journalists were harassed offline?
 					</li>
-
+				</legend>
 					<div>
-						<input type="" name="" id="">
-						<label for=""></label>
+						<input type="radio" name="women" id="25%">
+						<label for="">25%</label>
 					</div>
 
-				</legend>
-			</fieldset>			
+					<div>
+						<input type="radio" name="women" id="no-data">
+						<label for="no-data">None, no data is available.</label>
+					</div>
 
-					<!--
-					
-					Press suppression is a third world or less developed country’s problem.
-				
-					This year alone, what percentage of women journalists were harassed offline? -->
-					
+					<div>
+						<input type="radio" name="women" id="75%">
+						<label for="75%">75%</label>
+					</div>
+
+					<div>
+						<input type="radio" name="women" id="30%">
+						<label for="30%">30%</label>
+					</div>
+			</fieldset>		
 			</ol>
 		</form>
 	</div>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="app.js" type="text/javascript"></script>
 </body>
