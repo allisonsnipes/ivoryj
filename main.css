@@ -13,16 +13,27 @@
 	float: center;	
 }
 
-/* want the welcome screen to fade in zoom */
+/* want the welcome screen to fade in zoom
 .welcome { 
 	transition: ease-in;
 }
 button:hover {
 	cursor: pointer;
-}
-/*having trouble with the color*/
+}*/
 
-.legend {
-	background-color: #000000;
-	color: #ffffff;
+/*having trouble with the color*/
+ol.color {
+	color: #000;
+}
+
+legend {
+	background-color: #000;
+	color: #fff;
+	padding: 3px 6px;
+}
+
+
+
+input{
+	margin: .4rem;
 }
