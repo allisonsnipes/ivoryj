@@ -1,11 +1,11 @@
 * {
 	font-family: 'Rajdhani', sans-serif;
-	color: black;
 	box-sizing: border-box;	
 }
 .header{
 	text-align: center;
 }
+
 #button {
 	width: 50%;
 	margin-left: auto;
@@ -20,4 +20,9 @@
 button:hover {
 	cursor: pointer;
 }
+/*having trouble with the color*/
 
+.legend {
+	background-color: #000000;
+	color: #ffffff;
+}
